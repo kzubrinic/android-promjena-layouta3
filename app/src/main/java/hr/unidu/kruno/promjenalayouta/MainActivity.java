@@ -5,6 +5,8 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.RatingBar;
 
 import hr.unidu.kruno.promjenalayouta.FragmentActivity2;
 import hr.unidu.kruno.promjenalayouta.FragmentActivity3;
@@ -41,4 +43,5 @@ public class MainActivity extends AppCompatActivity {
         // Potvrdi promjenu
         ft.commit();
     }
+
 }

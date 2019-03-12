@@ -5,6 +5,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.RatingBar;
 
 public class FragmentActivity3 extends Fragment {
     // The onCreateView method is called when Fragment should create its View object hierarchy,
@@ -22,5 +24,4 @@ public class FragmentActivity3 extends Fragment {
         // Setup any handles to view objects here
         // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
     }
-
 }
