@@ -22,5 +22,4 @@ public class FragmentActivity2 extends Fragment {
         // Setup any handles to view objects here
         // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
     }
-
 }
