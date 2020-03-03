@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             RatingBar rb = findViewById(R.id.ratingBar);
             stanje.putBoolean("redovan", br.isChecked());
             stanje.putBoolean("upisan", up.isChecked());
-            stanje.putInt("brojZvjezdica", rb.getNumStars());
+            stanje.putFloat("brojZvjezdica", rb.getRating());
     }
     @Override // UČITAVANJE SPREMLJENOG STANJA
     protected void onRestoreInstanceState(final Bundle spremljenoStanje){
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             RatingBar rb = findViewById(R.id.ratingBar);
             br.setChecked(spremljenoStanje.getBoolean("redovan"));
             up.setChecked(spremljenoStanje.getBoolean("upisan"));
-            rb.setNumStars(spremljenoStanje.getInt("brojZvjezdica"));
+            rb.setRating(spremljenoStanje.getFloat("brojZvjezdica"));
     }
 
 }

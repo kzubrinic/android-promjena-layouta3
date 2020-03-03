@@ -5,8 +5,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RatingBar;
 
 public class FragmentActivity2 extends Fragment {
+    private RatingBar pr;
     // The onCreateView method is called when Fragment should create its View object hierarchy,
     // either dynamically or via XML layout inflation.
     @Override
@@ -19,7 +21,9 @@ public class FragmentActivity2 extends Fragment {
     // Any view setup should occur here.  E.g., view lookups and attaching view listeners.
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        // Setup any handles to view objects here
-        // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
+        // Ovdje se pristupa elementima stvorenog viewa fragmenta
+        // Povezuje se s grafičkim objektima, registriraju se listeneri,...
+        pr = view.findViewById(R.id.ratingBar);
+        pr.setRating(2.5f);
     }
 }

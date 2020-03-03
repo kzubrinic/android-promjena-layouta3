@@ -9,17 +9,16 @@
         android:id="@+id/slika"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:contentDescription="@string/opis_slike"
-        app:srcCompat="@drawable/music_face" />
+        android:contentDescription="@string/opis_slike" />
 
     <TextView
         android:id="@+id/ime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ime" android:textSize="24sp"/>
+        android:text="" android:textSize="24sp"/>
 
     <TextView
-        android:text="@string/prezime"
+        android:text=""
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/prezime"
