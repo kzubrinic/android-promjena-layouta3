@@ -1,11 +1,12 @@
 package hr.unidu.kruno.promjenalayouta3;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RatingBar;
+
+import androidx.fragment.app.Fragment;
 
 public class FragmentActivity2 extends Fragment {
     private RatingBar pr;
